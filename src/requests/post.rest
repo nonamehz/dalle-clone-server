@@ -1,0 +1,14 @@
+@DEV_URL=http://localhost:8080
+
+### GET ALL POSTS
+GET {{DEV_URL}}/api/v1/posts
+
+### INSERT POST
+POST {{DEV_URL}}/api/v1/posts
+Content-Type: application/json
+
+{
+    "name": "Jose",
+    "prompt": "Mi perro jugando con su pelota de juguete",
+    "image": "https://w0.peakpx.com/wallpaper/529/701/HD-wallpaper-dog-playing-humor-green-grass-playing-ball-funny-animals-dog.jpg"
+}

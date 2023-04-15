@@ -1,0 +1,9 @@
+@DEV_URL=http://localhost:8080
+
+### INSERT POST
+POST {{DEV_URL}}/api/v1/dalle
+Content-Type: application/json
+
+{
+    "prompt": "Mi perro jugando con su pelota de juguete"
+}
